@@ -22,6 +22,7 @@ function App() {
   };
 
   return (
+    
     <>
       <Switch>
         {<Redirect exact from="/" to="/dashboard" />}
